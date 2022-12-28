@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+    color: red;
+
+}
+.change{
+    padding: 16px 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 9px 2px black;
+    border-radius: 3px;
+}
+.change:hover{
+    background-color: black;
+    box-shadow: 1px 1px 9px 2px rgb(118, 118, 118);
+    color: white;
+}
